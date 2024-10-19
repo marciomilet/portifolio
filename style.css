@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    width: 60%;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -31,15 +31,23 @@ body{
     justify-content: center;
     height: 90vh;
     border-radius: 30px;
-    width: 20vw;
-    color: black;
+    width: 30vw;
+    color: #27272a;
     background-color: #f4f4f5;
 }
 
+.titulo h2{
+   font-size: 16px; 
+} 
+
+.descricao{
+    font-size: 12px;
+}
+
 .imagem img{
-    border-radius: 100px;
-    width: 200px;
-    height: 200px;
+    border-radius: 1000px;
+    width: 250px;
+    height: auto;
 }
 
 .icones img{
@@ -61,7 +69,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     border-radius: 20px;
-    width: 40vw;
+    width: 65vw;
     height: 90vh;
     overflow: auto;
 }
@@ -71,10 +79,11 @@ body{
     text-decoration: none;
 }
 
+
 .primeiro{
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 350px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -94,6 +103,7 @@ body{
 .primeiro img{
     width: 350px;
     height: auto;
+    max-height: 150px;
     border-radius: 10px ;
 }
 

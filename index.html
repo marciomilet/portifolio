@@ -7,20 +7,20 @@
     <title>Portifolio</title>
     <link rel="icon" 
       type="image/jpg" 
-      href="https://avatars.githubusercontent.com/u/102172970?v=4" />
+      href="#" />
 </head>
 <body onLoad="sorteiaNumero()">
     <div class="container">
         <section>
             <div class="apresentacao">
                 <div class="imagem">
-                    <img src="https://avatars.githubusercontent.com/u/102172970?v=4" alt="">
+                    <img src="https://avatars.githubusercontent.com/u/102172970?v=4" alt="Foto_perfil">
                 </div>
                 <div class="icones">
-                    <a href="https://www.linkedin.com/in/dayvid-douglas/" target="_blank">
+                    <a href="https://www.linkedin.com/" target="_blank">
                         <img src="src/linkedin.png" alt="">
                     </a>
-                    <a href="https://github.com/dayviddouglas" target="_blank">
+                    <a href="https://github.com/" target="_blank">
                         <img src="src/github.png" alt="">
                     </a>
                 </div>
@@ -30,69 +30,21 @@
                 <div class="trabalho">
                     <p>Engenheiro de Software.</p>
                 </div>
-                <!-- <div class="contato">
-                    <a href="https://github.com/dayviddouglas" target="_blank">
-                        <p>Email:dayvid_douglas@hotmail.com</p>
+                <div class="contato">
+                    <a href="#" target="_blank">
+                        <button>
+                            <strong>Sobre mim</strong>
+                        </button>
                     </a>
-                </div> -->
+                </div>
             </div>
         </section>
 
         <section>
             <div class="portfolio">
-                <a href="https://suapevantagens.netlify.app/" target="_blank">
-                <div class="primeiro">
-                        <div class="imagemPortfolio">
-                            <img src="src/SV.png" alt="">
-                        </div>
-                        <div class="titulo">
-                            <h2>Suape Vantagens.</h2>
-                        </div>
-                        <div class="descricao">
-                          <p><strong>Plataforma de conexão entre os trabalhadores do porto de Suape e região com os estabelecimentos locais, como clínicas, bares, lojas e restaurantes.</strong></p>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/dayviddouglas/ciencia_de_dados_licitacoes_prefeitura_do_recife" target="_blank">
-                    <div class="primeiro">
-                            <div class="imagemPortfolio">
-                                <img src="src/prefeitura-do-recife.png" alt=""> 
-                            </div>
-                            <div class="titulo">
-                                <h2>Análise estatística de licitações da Prefeitura do Recife.</h2>
-                            </div>
-                            <div class="descricao">
-                              <p><strong>O dataset foi encontrado no portal da Prefeitura do Recife, onde foi realizado: pré-processamento, análise exploratória de dados e modelagem dos dados. </strong></p>  
-                            </div>
-                        </div>
-                </a>
-                <a href="https://github.com/marciomilet/IoT-NodeMCU" target="_blank">
-                    <div class="primeiro">
-                            <div class="imagemPortfolio">
-                                <img src="src/projeto-iot.jpeg" alt=""> 
-                            </div>
-                            <div class="titulo">
-                                <h2>Sensor de temperatura e umidade através de gestos.</h2>
-                            </div>
-                            <div class="descricao">
-                                <p><strong>Projeto IOT (Internet of Things), onde realiza ações através de gestos, onde realiza aferição de temperatura e umidade de ambiente.</strong></p>
-                            </div>
-                    </div>
-                </a>
-                <a href="https://github.com/dayviddouglas/hot-dog-feliz/" target="_blank">
-                    <div class="primeiro">
-                            <div class="imagemPortfolio">
-                                <img src="src/hot-dog-feliz.png" alt=""> 
-                            </div>
-                            <div class="titulo">
-                                <h2>Hot dog feliz.</h2>
-                            </div>
-                            <div class="descricao">
-                                <p><strong>Esse projeto é uma simulação de um sistema de cadastro clientes.</strong></p>
-                            </div>
-                    </div>
-                </a>
+                <div class="escolhaProjetos" id="carregaProjetos"></div>
+               
+                <div class="descricaoProjetos hidden" id="descricaoProjetos"></div>
             </div>
         </section>
     </div>

@@ -74,6 +74,7 @@ body{
     max-width: 900px;
     min-width: 900px;
     height: 90vh;
+    overflow:auto;
 }
 
 .escolhaProjetos{
@@ -101,6 +102,23 @@ body{
     height: 350px;
     max-width: 360px;
     cursor: pointer;
+    
+}
+
+.desabilita{
+    display: none;
+}
+
+.sobreMim{
+    flex-direction: column;
+    margin: 30px;
+}
+
+.sobreMim button{
+  max-width: 100px;
+}
+.titulo{
+    font-size: 14px;
 }
 
 .primeiro:hover{
@@ -108,9 +126,9 @@ body{
     color: white;
 }
 
-.primeiro img{
+.imagemPortfolio img{
     width: 350px;
-    height: auto;
+    height: 150px;
     border-radius: 10px ;
 }
 

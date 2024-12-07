@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
             image: "src/chatbot-img.png",
             title: "ChatBot NPL Livros",
             descricao:
-                "Um chatbot projetado para interagir com usuários de maneira natural e eficiente utiliza modelos de Processamento de Linguagem Natural (NLP) para compreender e responder às perguntas. O objetivo é auxiliar o usuário na busca por livros, proporcionando uma experiência de consulta mais intuitiva e personalizada.",
+                "Um chatbot que usa NLP para entender e responder perguntas, ajudando os usuários a encontrar livros de forma intuitiva e personalizada.",
             descricaoPagina:
                 "Um chatbot projetado para interagir com usuários de maneira natural e eficiente utiliza modelos de Processamento de Linguagem Natural (NLP) para compreender e responder às perguntas. O objetivo é auxiliar o usuário na busca por livros, proporcionando uma experiência de consulta mais intuitiva e personalizada.",
             link: "https://senacpernambuco-my.sharepoint.com/:u:/g/personal/dayvid_lima_edu_pe_senac_br/EQ24lode62pAlU4gtFt395gBuVXHogNZnYw20AwnReHWIQ?e=OoYSn9",
@@ -42,6 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const projectCardsContainer = document.getElementById("carregaProjetos");
     const descricaoProjetos = document.getElementById("descricaoProjetos");
+    const sobreMin= document.getElementById("sobreMim");
+
 
     function generateProjectCards() {
         projects.forEach((project) => {
@@ -93,16 +95,32 @@ document.addEventListener("DOMContentLoaded", () => {
         
         descricaoProjetos.style.display = "block";
 
-        
         const voltarButton = document.getElementById("voltarButton");
         voltarButton.addEventListener("click", goBack);
+       
     }
+
+    const sobreminButton= document.getElementById("botaosobreMin");
+    sobreminButton.addEventListener("click",gobackSobremim)
+    const voltarButton = document.getElementById("voltarButton");
+    voltarButton.addEventListener("click", goBack);
 
     function goBack() {
         
         projectCardsContainer.style.display = "flex";
         
         descricaoProjetos.style.display = "none";
+
+        sobreMin.style.display= "none";
+    }
+
+    function gobackSobremim() {
+        
+        projectCardsContainer.style.display = "none";
+        
+        descricaoProjetos.style.display = "none";
+
+        sobreMin.style.display = "flex";
     }
 
     

@@ -31,12 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         {
             image: "src/chatbot-img.png",
-            title: "ChatBot NPL Livros",
+            title: "ChatBot NPL Dispositivos",
             descricao:
-                "Um chatbot que usa NLP para entender e responder perguntas, ajudando os usuários a encontrar livros de forma intuitiva e personalizada.",
+                "Um chatbot que usa NLP para entender e responder perguntas, ajudando os usuários a entender sobre uso de dispositivos.",
             descricaoPagina:
-                "Um chatbot projetado para interagir com usuários de maneira natural e eficiente utiliza modelos de Processamento de Linguagem Natural (NLP) para compreender e responder às perguntas. O objetivo é auxiliar o usuário na busca por livros, proporcionando uma experiência de consulta mais intuitiva e personalizada.",
-            link: "https://senacpernambuco-my.sharepoint.com/:u:/g/personal/dayvid_lima_edu_pe_senac_br/EQ24lode62pAlU4gtFt395gBuVXHogNZnYw20AwnReHWIQ?e=OoYSn9",
+                "Um chatbot projetado para interagir com usuários de maneira natural e eficiente utiliza modelos de Processamento de Linguagem Natural (NLP) para compreender e responder às perguntas. O objetivo é auxiliar o usuário na busca por informações, proporcionando uma experiência de consulta mais intuitiva e personalizada.",
+            link: "https://github.com/marciomilet/CHATBOT",
         },
     ];
 

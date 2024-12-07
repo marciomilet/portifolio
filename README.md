@@ -1,4 +1,4 @@
-# Portfólio de Dayvid Douglas
+# Portfólio de Márcio Milet
 
 Este repositório é uma apresentação do meu portfólio pessoal, onde apresento meus projetos e habilidades como desenvolvedor.
 
@@ -26,7 +26,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/dayviddouglas/portfolio.git
+   git clone https://github.com/marciomilet/portifolio.git
 2. Navegue até o diretório do projeto:
     ```bash
     cd portfolio
@@ -39,9 +39,9 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 ## Contato
 
-- Email: [dayvid_douglas@hotmail.com](mailto:dayvid_douglas@hotmail.com)
-- LinkedIn: [dayvid-douglas](https://www.linkedin.com/in/dayvid-douglas/)
-- GitHub:[Dayvid Douglas](https://github.com/dayviddouglas)
+- Email: [contato.marciomilet@gmail.com](mailto:contato.marciomilet@gmail.com)
+- LinkedIn: [Márcio Milet](https://www.linkedin.com/in/márcio-milet-de-carvalho-neves-junior-149b3824a/)
+- GitHub:[Márcio Milet](https://github.com/marciomilet)
    
 
    
